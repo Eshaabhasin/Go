@@ -1,6 +1,11 @@
 package main
-import "fmt"
-func main(){
-	var name string="eshaa"
-	fmt.Println(name)
+
+import (
+	"fmt"
+	"strings"
+)
+
+func main() {
+	greeting := "Hello there"
+	fmt.Println(strings.Contains(greeting,"Hello"))
 }
